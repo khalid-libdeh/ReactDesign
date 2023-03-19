@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/reactpage/static/css/main.b604b59d.css",
-    "main.js": "/reactpage/static/js/main.9fc8a570.js",
-    "static/js/787.28cb0dcd.chunk.js": "/reactpage/static/js/787.28cb0dcd.chunk.js",
-    "static/media/al.svg": "/reactpage/static/media/al.dd17f9b0b19aa16e7afe8e156454f33d.svg",
-    "static/media/br.svg": "/reactpage/static/media/br.0195f1434b135a18881f1fd31a962073.svg",
-    "static/media/us.svg": "/reactpage/static/media/us.14abad61351d512234363fd6c0af113a.svg",
-    "index.html": "/reactpage/index.html",
-    "static/media/jr.svg": "/reactpage/static/media/jr.adf4836f5a66e610d50150e45e6b7c82.svg",
-    "static/media/ag.svg": "/reactpage/static/media/ag.a9ba9a0d9b06e50c6c0bc8c688e56c51.svg",
-    "static/media/ax.svg": "/reactpage/static/media/ax.dae59e50e62504789ce58388d65e1b30.svg",
-    "static/media/is.svg": "/reactpage/static/media/is.bb94eebadbe98e459758ddcf03f1dfb9.svg",
-    "static/media/de.svg": "/reactpage/static/media/de.ed5be69598a5a9c32bc893f67ede7160.svg",
-    "static/media/bg.svg": "/reactpage/static/media/bg.bd884fd68fd30c1cb1c6550032d37700.svg",
-    "main.b604b59d.css.map": "/reactpage/static/css/main.b604b59d.css.map",
-    "main.9fc8a570.js.map": "/reactpage/static/js/main.9fc8a570.js.map",
-    "787.28cb0dcd.chunk.js.map": "/reactpage/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/ReactDesign/static/css/main.b604b59d.css",
+    "main.js": "/ReactDesign/static/js/main.efbb4c0d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ReactDesign/static/js/787.28cb0dcd.chunk.js",
+    "static/media/al.svg": "/ReactDesign/static/media/al.dd17f9b0b19aa16e7afe8e156454f33d.svg",
+    "static/media/br.svg": "/ReactDesign/static/media/br.0195f1434b135a18881f1fd31a962073.svg",
+    "static/media/us.svg": "/ReactDesign/static/media/us.14abad61351d512234363fd6c0af113a.svg",
+    "index.html": "/ReactDesign/index.html",
+    "static/media/jr.svg": "/ReactDesign/static/media/jr.adf4836f5a66e610d50150e45e6b7c82.svg",
+    "static/media/ag.svg": "/ReactDesign/static/media/ag.a9ba9a0d9b06e50c6c0bc8c688e56c51.svg",
+    "static/media/ax.svg": "/ReactDesign/static/media/ax.dae59e50e62504789ce58388d65e1b30.svg",
+    "static/media/is.svg": "/ReactDesign/static/media/is.bb94eebadbe98e459758ddcf03f1dfb9.svg",
+    "static/media/de.svg": "/ReactDesign/static/media/de.ed5be69598a5a9c32bc893f67ede7160.svg",
+    "static/media/bg.svg": "/ReactDesign/static/media/bg.bd884fd68fd30c1cb1c6550032d37700.svg",
+    "main.b604b59d.css.map": "/ReactDesign/static/css/main.b604b59d.css.map",
+    "main.efbb4c0d.js.map": "/ReactDesign/static/js/main.efbb4c0d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ReactDesign/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b604b59d.css",
-    "static/js/main.9fc8a570.js"
+    "static/js/main.efbb4c0d.js"
   ]
 }
