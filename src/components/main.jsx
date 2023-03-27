@@ -7,15 +7,15 @@ import FavouritesCountries from './favouritesList';
 const MainDiv= styled.div`
     background: #fafafa;
     min-height: 100%;
+    margin-top: 4rem;
     padding-inline: 4rem;
-    margin-top: 3rem;
 `;
 
 const FlexDisplay = styled.div`
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
-    gap: 3rem;
+    margin-top: 3rem;
+    gap: 1.5rem;
 `;
 
 

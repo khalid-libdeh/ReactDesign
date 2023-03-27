@@ -11,27 +11,28 @@ const SearchBox = styled(Box)`
     border: solid 1px;
     text-align: center;
     width: 30rem;
+    padding-bottom: 0.5rem;
+    min-height: 2rem;
 `;
 
 const SearchIconComp = styled(SearchIcon)`
-    margin: 1rem;
+    margin-bottom: 0.5rem;
     color: grey;
-    margin-right: 1;
-    margin-bottom: 0.5;
+    margin-left: 1.5rem;
 `;
 
 const SearchArea = styled(TextField)`
     margin: auto;
     min-width: 5rem;
-    border: none
-    width: 100%;
+    border: 0;
+
 `;
 
 export default function SearchField() {
     return (
         <SearchBox sx={{ display: 'flex', alignItems: 'flex-end' }}>
             <SearchIconComp />
-            <SearchArea id="input-with-sx" label="Search for a country..." variant="standard" />
+            <SearchArea fullWidth variant='standard' margin="normal" id="input-with-sx" placeholder="Search for a country..." />
         </SearchBox>
     );
   }

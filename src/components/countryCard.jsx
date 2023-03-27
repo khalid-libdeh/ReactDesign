@@ -4,50 +4,58 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import styled from 'styled-components';
-import IS from './flags/is.svg'
+
+
+
 
 const BoldText = styled.span`
-    font-size: 1rem;
     font-weight: bold;
 `;
 const CardTitle = styled(Typography)`
-    padding-top: 1.5rem;
-    padding-left: 1rem;
-    font-weight: bold;
+    
 `;
 
 const StyledCardContent = styled(CardContent)`
     display: block;
-    gap: 1rem;
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
 `;
 
-export default function IcelandCard({title,imgSrc,population,reigon,capital}) {
+const StyledCardDetails = styled.div`
+    margin-top: 0.8rem;
+    line-height: 1.6;
+`;
+
+export default function CountryCard({title,imgSrc,population,reigon,capital}) {
   return (
-    <a>
-    <Card sx={{ maxWidth: 300 }}>
+   
+    <Card sx={{ minWidth:300, maxWidth:300, minHeight:400}}>
     <CardMedia
-      sx={{ height: 200 }}
-      image= {IS}
-      title="Iceland"
+      sx={{ height: 200, width: '100%', objectFit: "cover"}}
+      image= {imgSrc}
+      title= {title}
     />
-    <CardTitle gutterBottom variant="h5" component="div">
-         <span>Iceland</span> 
-    </CardTitle>
+
     <StyledCardContent>
+    <CardTitle gutterBottom variant="h6" component="div">
+         <BoldText>{title}</BoldText> 
+    </CardTitle>
+    <StyledCardDetails>
        <div>
             <BoldText>Population: </BoldText>
-            <span>334,300</span>
+            <span>{population}</span>
        </div>
        <div>
             <BoldText>Region: </BoldText>
-            <span>Europe</span>
+            <span>{reigon}</span>
        </div>
        <div>
             <BoldText>Capital: </BoldText>
-            <span>Reykjavík</span>
+            <span>{capital}</span>
        </div>       
+    </StyledCardDetails>
     </StyledCardContent>
     </Card>
-    </a>
     );
 }

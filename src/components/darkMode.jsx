@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { ShieldMoon } from '@mui/icons-material';
 import Button from '@mui/material/Button'
 import styled from 'styled-components';
 import { StyledEngineProvider } from '@mui/material/styles';

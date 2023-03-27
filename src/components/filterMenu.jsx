@@ -13,7 +13,7 @@ export default function FilterMenu() {
   };
 
   return (
-    <Box sx={{ minWidth: 120 }}>
+    <Box sx={{ minWidth: 200 }}>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Filter by</InputLabel>
         <Select

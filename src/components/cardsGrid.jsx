@@ -4,45 +4,41 @@ import styled from 'styled-components';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import USACard from './usaCard';
-import BrazilCard from './brazilCard';
-import IcelandCard from './icelandCard';
-import AlandCard from './alandCard';
-import AlbaniaCard from './albaniaCard';
-import AlgeriaCard from './algeriaCard';
-
-const CardsGridContainer = styled.div`
-    display: flex;
-    justify-content: end;
-`;
+import CountryCard from './countryCard';
+import US from './flags/us.svg'
+import BR from './flags/br.svg'
+import IC from './flags/is.svg'
+import AX from './flags/ax.svg'
+import AL from './flags/al.svg'
+import AG from './flags/ag.svg'
 
 
 
-export default function Cardsgrid() {
+export default function CardsGrid() {
   return (
-    <CardsGridContainer>
-    <Box sx={{ width: '100%' }}>
-      <Grid container rowSpacing={10} columnSpacing={10}>
-        <Grid item xs={4}>
-        <USACard></USACard>
+  
+    <Box sx={{ flexGrow: 2 }}>
+      <Grid container spacing={7}>
+        <Grid item xs >
+        <CountryCard title={"United States of America"} imgSrc ={US} capital={"Washington, D.C."} reigon={"Americas"} population={"323,947,000"}></CountryCard>
         </Grid>
-        <Grid item xs={4}>
-        <BrazilCard></BrazilCard>
+        <Grid item xs >
+        <CountryCard title={"Brazil"} imgSrc ={BR} capital={"Brasilia"} reigon={"Americas"} population={"206,135,893"}></CountryCard>
         </Grid>
-        <Grid item xs={4}>
-        <IcelandCard></IcelandCard>
+        <Grid item xs>
+        <CountryCard title={"Iceland"} imgSrc ={IC} capital={"reykjavik"} reigon={"Europe"} population={"334,300"}></CountryCard>
         </Grid>
-        <Grid item xs={4}>
-        <AlandCard></AlandCard>
+        <Grid item xs>
+        <CountryCard title={"Åland Islands"} imgSrc ={AX} capital={"Mariehamn"} reigon={"Europe"} population={"28,875"}></CountryCard>
         </Grid>
-        <Grid item xs={4}>
-        <AlbaniaCard></AlbaniaCard>
+        <Grid item xs>
+        <CountryCard title={"Albania"} imgSrc ={AL} capital={"Tirana"} reigon={"Europe"} population={"2,886,026"}></CountryCard>
         </Grid>
-        <Grid item xs={4}>
-        <AlgeriaCard></AlgeriaCard>
+        <Grid item xs>
+        <CountryCard title={"Algeria"} imgSrc ={AG} capital={"Algiers"} reigon={"Africa"} population={"40,400,000"}></CountryCard>
         </Grid>
       </Grid>
     </Box>
-    </CardsGridContainer>
   );
 }
+
