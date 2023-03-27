@@ -13,7 +13,7 @@ const Wrapper = styled.section`
   marging: 10rem;
   justify-content:space-between;
   padding-inline: 4rem;
-  border-bottom: solid 1px;
+  box-shadow: 0 0 5px 2px #DCDCDC;
 `;
 
 export default function Header() {

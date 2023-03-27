@@ -27,9 +27,10 @@ const StyledCardDetails = styled.div`
     line-height: 1.6;
 `;
 
+
 export default function CountryCard({title,imgSrc,population,reigon,capital}) {
   return (
-   
+    
     <Card sx={{ minWidth:300, maxWidth:300, minHeight:400}}>
     <CardMedia
       sx={{ height: 200, width: '100%', objectFit: "cover"}}

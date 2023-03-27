@@ -16,30 +16,40 @@ import styled from 'styled-components';
 const FlagIcon = styled.img`
     height: 2rem;
     width: 2rem;
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     padding-right: 10px;
 `;
 
+const ListStyle = styled.div`
+    box-shadow: 0 0 5px 2px #DCDCDC;
+`;
+
+const StyledCancelIcon = styled(CancelIcon)`
+    background-color: white;
+    color: #e3e3e3;
+`;
 export default function FavouritesCountries() {
     return(
-    <List dense sx={{ width: '100%', maxWidth: 260, bgcolor: 'white' }}>
+    <ListStyle>
+    <List dense sx={{ width: '100%', minWidth: 300,maxWidth: 210, bgcolor: 'white' }}>
           <ListItem >
               <FlagIcon src={JR}></FlagIcon>
               <ListItemText id={'USA'} primary={`Jordan`} />
-              <CancelIcon></CancelIcon>
+              <StyledCancelIcon></StyledCancelIcon>
           </ListItem>
           <ListItem >
 
           <FlagIcon src={US}></FlagIcon>
               <ListItemText id={'USA'} primary={`United States of America`} />
-              <CancelIcon></CancelIcon>
+              <StyledCancelIcon></StyledCancelIcon>
           </ListItem>   
 
           <ListItem >
           <FlagIcon src={DE}></FlagIcon>
             <ListItemText id={'USA'} primary={`Germany`} />
-            <CancelIcon></CancelIcon>
+            <StyledCancelIcon></StyledCancelIcon>
         </ListItem>
     </List>
+    </ListStyle>
   );
 }

@@ -8,11 +8,11 @@ const SearchBox = styled(Box)`
     
     background: white;
     gap: 1.5rem;
-    border: solid 1px;
+    box-shadow: 0 0 5px 1px #DCDCDC;
     text-align: center;
     width: 30rem;
     padding-bottom: 0.5rem;
-    min-height: 2rem;
+    min-height: 1.8rem;
 `;
 
 const SearchIconComp = styled(SearchIcon)`
